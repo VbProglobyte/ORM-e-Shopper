@@ -4,7 +4,7 @@ const { Category, Product } = require('../../models');
 // The `/api/categories` endpoint
 // use mini project for ref ///////////////////////////////////////// try catch & async await ***
 router.get('/', async (req, res) => {
-  // find all categories - findAll - define data - and join
+  // find all categories - findAll - define data - and join - use ***DATA
   //  [[[[[[[[[[[[[[[[[[[[[[[[ all ]]]]]]]]]]]]]]]]]]]]]]]]
   // be sure to include** its associated Products 
   // - include : [{model: Product}] - route to models - Product.js 
