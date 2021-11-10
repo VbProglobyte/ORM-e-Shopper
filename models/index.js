@@ -7,13 +7,7 @@ const ProductTag = require('./ProductTag');
 // Products belongsTo Category
 Product.belongsTo(Catagory, {
   forerignKey: 'catagory_id',
-  // Define the third table needed to store the foreign keys
-  // through: {
-  //   model: Tag,
-  //   unique: false
-  // },
-  // // Define an alias for when data is retrieved
-  // as: 'catagory_id'
+  
 });
 // Categories have many Products
 Catagory.hasMany(Product, {
